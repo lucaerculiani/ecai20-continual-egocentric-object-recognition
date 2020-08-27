@@ -1,0 +1,33 @@
+{
+ "seed": 0,
+ "test_seed": 1,
+ "remove_test": false,
+ "validation": true,
+ "evaluation": true,
+ "clustering": false,
+ "incremental_evaluation": {"number": 10, "setting" : 0.3},
+ "n_exp": 2000,
+ "setting": null,
+ "dataset": {
+  "descriptor": "/reid100.json",
+  "dl_args": {},
+  "pre_embedded": true
+ },
+ "agent": {
+  "bootstrap": 10,
+  "fn": {"add_seen_element": "separate"},
+  "name": "active",
+  "max_neigh_check" : 1, 
+  "remove" : null,
+  "ag_args": {"sup_effort": 0.92}
+ },
+ "model": {
+  "embedding": "resnet152",
+  "emb_train": false,
+  "pretrained": true,
+  "aggregator": "mean",
+  "ag_args" : {}, 
+  "pre_embed" : true
+ },
+ "refine": null
+}

@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+
+
+#dataset
+experiments/frontiers/dataset/*
+
+
+# swap files
+*.swp
