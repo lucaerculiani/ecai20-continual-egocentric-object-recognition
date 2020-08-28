@@ -1,5 +1,4 @@
 set -e
-set -x
 nexp=$(ls -1 /inputs | wc -l) 
 echo "loading $nexp experiments" 
 counter=1 
