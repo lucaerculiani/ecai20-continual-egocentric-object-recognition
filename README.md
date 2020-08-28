@@ -24,7 +24,7 @@ Clone the repository, open a terminal inside it and run
     
 Then run the image (tested under linux on a machine with  64 GB of RAM)
 
-    $> docker run -v ${PWD}/inputs:/inputs -v ${PWD}/outputs:/outputs -v ${PWD}/info:/info  -v ${PWD}/results:/results -it  --shm-size=1G experiments_vm
+    $> mkdir -p outputs ; docker run -v ${PWD}/inputs:/inputs -v ${PWD}/outputs:/outputs -v ${PWD}/info:/info  -v ${PWD}/results:/results -it  --shm-size=1G experiments_vm
 
 The plots will appear in the folder `outputs/`
 
