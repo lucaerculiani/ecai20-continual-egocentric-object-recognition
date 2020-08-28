@@ -2,7 +2,7 @@ Continual egocentric object recognition
 ==============
 
 Code for the paper presented at [ECAI2020](https://arxiv.org/pdf/1912.05029.pdf)
-The dataset used in available [here](https://ndownloader.figshare.com/files/17435471)
+The dataset pubished with the paper is available [here](https://ndownloader.figshare.com/files/17435471)
 
 The code is provided togheter witha dockerfile, to ease the reproducibility of 
 the experiments. The images were tesed using linux
