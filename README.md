@@ -22,7 +22,7 @@ Clone the repository, open a terminal inside it and run
 
     $> docker build -t experiments_vm .
     
-Then run the image (tested under linux), requires at least 32 GB of RAM
+Then run the image (tested under linux on a machine with  64 GB of RAM)
 
     $> docker run -v ${PWD}/inputs:/inputs -v ${PWD}/outputs:/outputs -v ${PWD}/info:/info  -v ${PWD}/results:/results -it  --shm-size=1G experiments_vm
 
