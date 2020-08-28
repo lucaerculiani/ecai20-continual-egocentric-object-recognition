@@ -4,17 +4,17 @@ Continual egocentric object recognition
 Code for the paper presented at [ECAI2020](https://arxiv.org/pdf/1912.05029.pdf)
 The dataset pubished with the paper is available [here](https://ndownloader.figshare.com/files/17435471)
 
-The code is provided togheter witha dockerfile, to ease the reproducibility of 
-the experiments. The images were tesed using linux
+The code is provided togheter with a dockerfile, to ease the reproducibility of 
+the experiments. The images were tesed under linux
 
 How to run the code
 ------------
 
-Highlights:
+The steps are:
 
- 1. Inistall docker
+ 1. Install docker
  2. Build the image
- 3. Run it 
+ 3. Run the container
 
 
 
