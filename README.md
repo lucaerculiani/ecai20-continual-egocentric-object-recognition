@@ -10,7 +10,7 @@ the experiments. The images were tesed under linux
 How to run the code
 ------------
 
-The steps are:
+The steps:
 
  1. Install docker
  2. Build the image
@@ -18,7 +18,7 @@ The steps are:
 
 
 
-Clone the repository, open a terminal inside it and run
+After the installation of docker, clone the repository, open a terminal inside it and run
 
     $> docker build -t experiments_vm .
     
